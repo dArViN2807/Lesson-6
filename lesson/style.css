@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "RubickItalic";
+  src: url("./font/Rubik-Italic-VariableFont_wght.ttf");
+}
+
+h1 {
+  margin-top: 33px;
+  margin-bottom: 100px;
+  font-family: "RubickItalic" sans-serif;
+  font-style: normal;
+  text-align: start;
+  color: #363940;
+  text-align: center;
+}
+.user-card {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: 100px;
+}
+.icon-card {
+  width: 30px;
+  height: 50px;
+}
+.name {
+  margin-top: 33px;
+  margin-bottom: 11px;
+  font-family: "RubickItalic" sans-serif;
+  font-style: normal;
+  text-align: start;
+  color: #363940;
+  text-align: start;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+}
+.description {
+  width: 300px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.link {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #95a1bb;
+  margin-bottom: 22px;
+}

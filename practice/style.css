@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+@font-face {
+  font-family: "Exo2-VariableFont";
+  src: url("./image/fonts/Exo2-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "PtSans-Regular";
+  src: url(./image/fonts/PTSans-Regular.ttf) "truetype";
+}
+.card {
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 210px;
+  border-left: 40px solid #0b7572;
+  border-right: 10px solid white;
+  border-radius: 5%;
+  width: 554px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.object {
+}
+.line {
+  width: 80px;
+  height: 5px;
+  background-color: yellow;
+  margin-bottom: 35px;
+}
+.Main-container {
+  max-width: 1240px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+.name {
+  font-style: normal;
+  font-family: "Exo2-VariableFont", sans-serif;
+}
+.object {
+  font-style: normal;
+  font-family: "PtSans-Regular", sans-serif;
+}
+img {
+  margin-top: 10px;
+  margin-left: 27px;
+  margin-right: auto;
+}

@@ -1,0 +1,28 @@
+h1 {
+  margin: 150px auto;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #363940;
+}
+.user-card {
+  margin-left: 200px;
+  border: 10px solid green;
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+.name {
+  @font-face {
+    font-family: ;
+    src: url();
+  }
+}
